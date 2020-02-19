@@ -37,6 +37,8 @@ public class Main {
     private JPanel rightPanel;
     private int[] randomNumbers;
     private JButton[] numberButtons;
+    private JButton sortButton;
+    private JButton resetButton;
     private boolean desc = true;
 
     private Main() {
@@ -61,6 +63,8 @@ public class Main {
         managePanel = new JPanel(new GridLayout(2, 1, 8, 8));
         leftPanel = new JPanel();
         rightPanel = new JPanel();
+        sortButton = new JButton(SORT_BUTTON);
+        resetButton = new JButton(RESET_BUTTON);
     }
 
     /**
@@ -117,8 +121,6 @@ public class Main {
      * This panel contains sort and reset buttons.
      */
     private void makeSortFrameManagePanel() {
-        JButton sortButton = new JButton(SORT_BUTTON);
-        JButton resetButton = new JButton(RESET_BUTTON);
         sortButton.addActionListener(e -> sortNumbers());
         resetButton.addActionListener(e -> reset());
         managePanel.add(sortButton);
@@ -175,6 +177,8 @@ public class Main {
      */
     private void switchButtonsState(boolean enabled) {
         Arrays.stream(numberButtons).forEach(b -> b.setEnabled(enabled));
+        sortButton.setEnabled(enabled);
+        resetButton.setEnabled(enabled);
         numbersPanel.repaint();
     }
 
@@ -280,13 +284,13 @@ public class Main {
             swapArrayNumbers(a, b);
             swapNumberButtonsText(a, b);
             swapButtonsListeners(a, b);
-        }
-        numbersPanel.repaint();
-        try {
-            Thread.sleep(DELAY_AFTER_SWAP_MS);
-        } catch (InterruptedException e) {
-            System.out.println(e.getMessage());
-            Thread.currentThread().interrupt();
+            numbersPanel.repaint();
+            try {
+                Thread.sleep(DELAY_AFTER_SWAP_MS);
+            } catch (InterruptedException e) {
+                System.out.println(e.getMessage());
+                Thread.currentThread().interrupt();
+            }
         }
     }
 

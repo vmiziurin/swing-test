@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfb60749-6650-4611-8d14-4f48f01bc4bd" name="Default Changelist" comment="" />
+    <list default="true" id="cfb60749-6650-4611-8d14-4f48f01bc4bd" name="Default Changelist" comment="add sort and reset to switcher when sort. minor changes">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gransoft/testing/miziurin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gransoft/testing/miziurin/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,83 +17,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gransoft/testing/miziurin/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="98">
+              <caret line="281" column="37" lean-forward="true" selection-start-line="281" selection-start-column="37" selection-end-line="281" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1983#1984#0" expanded="true" />
                 <element signature="e#2036#2037#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gransoft/testing/miziurin/TestAnimatedPane.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="69" column="12" selection-start-line="67" selection-start-column="4" selection-end-line="69" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-                <element signature="e#535#536#0" expanded="true" />
-                <element signature="e#1944#1945#0" expanded="true" />
-                <element signature="e#1998#1999#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gransoft/testing/miziurin/GraphicalQuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="160" column="24" selection-start-line="160" selection-start-column="19" selection-end-line="160" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#1253#1254#0" expanded="true" />
-                <element signature="e#1313#1314#0" expanded="true" />
-                <element signature="e#2089#2090#0" expanded="true" />
-                <element signature="e#2137#2138#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gransoft/testing/miziurin/TimerTime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1094#1095#0" expanded="true" />
-                <element signature="e#1143#1144#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gransoft/testing/miziurin/GridBagLayoutTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="33" column="25" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gransoft/testing/miziurin/GBLWeightTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,18 +39,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>screen</find>
-      <find>removeAll</find>
-      <find>layou</find>
-      <find>left</find>
-      <find>sortFrame.add</find>
       <find>grid</find>
       <find>introFramePanel</find>
       <find>@PARAM</find>
       <find>uses</find>
       <find>perform</find>
       <find>input</find>
-      <find>if</find>
       <find>if</find>
       <find>randomNumbers</find>
       <find>asc</find>
@@ -132,18 +57,32 @@
       <find>timer</find>
       <find>thread</find>
       <find>numberButtons[i].addActionListener(</find>
-      <find>Syste</find>
       <find>re</find>
       <find>1001</find>
       <find>sleep</find>
       <find>10</find>
       <find>frame</find>
+      <find>disa</find>
+      <find>disable</find>
+      <find>ena</find>
+      <find>sort</find>
+      <find>swit</find>
+      <find>Syste</find>
+      <find>todo</find>
     </findStrings>
     <replaceStrings>
       <replace>FRAME</replace>
       <replace>Frame</replace>
       <replace>randomNumbers</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="vmiziurin" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -172,6 +111,7 @@
     <option name="width" value="697" />
     <option name="height" value="775" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <showMembers ProjectPane="false" />
@@ -227,6 +167,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -346,7 +287,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81845000" />
+    <option name="totallyTimeSpent" value="82809000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -359,33 +300,34 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989518" visible="true" weight="0.5173979" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989518" visible="true" weight="0.1732224" />
       <window_info id="Structure" order="1" sideWeight="0.5010482" side_tool="true" weight="0.51805335" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="SonarLint" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32872504" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25345623" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25345623" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32872504" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32872504" />
+      <window_info anchor="bottom" id="SonarLint" order="9" weight="0.32872504" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32872504" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,16 +400,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gransoft/testing/miziurin/GBLWeightTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gransoft/testing/miziurin/GBLWeightTest.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/awt/MenuContainer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -538,28 +471,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gransoft/testing/miziurin/GridBagLayoutTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="33" column="25" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gransoft/testing/miziurin/TimerTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gransoft/testing/miziurin/GridBagLayoutTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gransoft/testing/miziurin/TimerTime.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -603,42 +516,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gransoft/testing/miziurin/TestAnimatedPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="69" column="12" selection-start-line="67" selection-start-column="4" selection-end-line="69" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#1944#1945#0" expanded="true" />
-            <element signature="e#1998#1999#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gransoft/testing/miziurin/GraphicalQuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="160" column="24" selection-start-line="160" selection-start-column="19" selection-end-line="160" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#1253#1254#0" expanded="true" />
-            <element signature="e#1313#1314#0" expanded="true" />
-            <element signature="e#2089#2090#0" expanded="true" />
-            <element signature="e#2137#2138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gransoft/testing/miziurin/TestAnimatedPane.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gransoft/testing/miziurin/GraphicalQuickSort.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gransoft/testing/miziurin/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="98">
+          <caret line="281" column="37" lean-forward="true" selection-start-line="281" selection-start-column="37" selection-end-line="281" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1983#1984#0" expanded="true" />
             <element signature="e#2036#2037#0" expanded="true" />
           </folding>
         </state>
